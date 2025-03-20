@@ -29,3 +29,6 @@ while (isSUNK === false) {
         }
     }
 }
+
+var stats = "You sank my battleship at:" + guesses + "guesses" + "add your accuracy is : " +(3/guesses);
+alert(stats);
